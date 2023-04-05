@@ -1,0 +1,175 @@
+
+#title{
+    background-color: rgba(234, 86, 60, 0.831);
+    color:#ffffff;
+}
+body{
+    /* font-family: "Montserrat"; */
+}
+h1{
+    font-family: "Montserrat-Black 900 italic";
+    font-size: 3rem;
+    line-height:1.5;
+    font-weight: 600;
+}
+
+.container-fluid{
+    padding: 2%10%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5 rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 10px;
+
+}
+
+.nav-link{
+    font-size:1.2rem ;
+    color: #6f0505;
+}
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+.title-image{
+    width:100%;
+    height: 60%;
+    transform: rotate(0deg);
+    right: 25px;
+    padding: 2% 2%;
+    padding-bottom: 5%;
+}
+
+#features{
+    padding:7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding:5%;
+}
+
+.h3{
+    font-family: "Montserrat-Black 900 ";
+    font-size: 1.5rem;
+}
+p{
+    color:#6f0505;
+}
+
+.icon{
+    color:#ea6655;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+#testimonials{
+   
+    text-align: center;
+    color:#fff;
+    background-color: rgba(234, 86, 60, 0.831);
+    font-family: "monteserrat";
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+
+.carousel-item{
+    padding:8% 15%;
+}
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+   
+}
+#press{
+    background-color: rgba(234, 86, 60, 0.831);
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 30px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+
+.pricing-column {
+    padding:3% 2%;
+}
+
+b{
+    font-size: 50px;
+}
+
+#cta{
+    background-color:rgba(234, 86, 60, 0.831) ;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#footer{
+   padding:5% 10% ;
+   text-align: center;
+}
+
+.social-icon{
+    padding:2%1%;
+}
+@media (max-width: 1028px){
+    .title-image{
+        transform: rotate(0);
+    
+    }
+    #title{
+
+        text-align: center;
+    }
+}
+
+.bottom{
+    background-color: white;
+    padding: 40px 0 20px ;
+    margin-top: 2px;
+    text-align: center;
+}
+
+a{
+    color: #049196 ;
+    /* font-family: 'Montserrat', sans-serif; */
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+.copyright{
+    margin-top:20px;
+}
